@@ -37,7 +37,7 @@ export function auth(req: NextRequest, modelProvider: ModelProvider) {
   console.log("[Auth] got access code:", accessCode);
   console.log("[Auth] hashed access code:", hashedCode);
   console.log("[User IP] ", getIP(req));
-  console.log("[Time] ", new Date().toLocaleString());
+  //console.log("[Time] ", new Date().toLocaleString());
 
   if (serverConfig.needCode && !serverConfig.codes.has(hashedCode) && !apiKey) {
     return {
