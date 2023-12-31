@@ -25,7 +25,7 @@ export function ChatItem(props: {
   onDelete?: () => void;
   title: string;
   count: number;
-  time: string;
+  time?: string; // 设置为可选属性
   selected: boolean;
   id: string;
   index: number;
@@ -77,7 +77,6 @@ export function ChatItem(props: {
                 <div className={styles["chat-item-count"]}>
                   {Locale.ChatItem.ChatItemCount(props.count)}
                 </div>
-                {/*<div className={styles["chat-item-date"]}>{props.time}</div>*/}
               </div>
             </>
           )}
@@ -139,7 +138,6 @@ export function ChatList(props: { narrow?: boolean }) {
             {sessions.map((item, i) => (
               <ChatItem
                 title={item.topic}
-                // time={new Date(item.lastUpdate).toLocaleString()}
                 count={item.messages.length}
                 key={item.id}
                 id={item.id}
