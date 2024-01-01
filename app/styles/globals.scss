@@ -59,11 +59,11 @@
 :root {
   @include light;
 
-  --window-width: 90vw;
-  --window-height: 90vh;
+  --window-width: 97vw;
+  --window-height: 97vh;
   --sidebar-width: 300px;
   --window-content-width: calc(100% - var(--sidebar-width));
-  --message-max-width: 80%;
+  --message-max-width: 96%;
   --full-height: 100%;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  --bar-width: 5px;
+  --bar-width: 1px;
   width: var(--bar-width);
   height: var(--bar-width);
 }
@@ -135,7 +135,7 @@ select {
   border-radius: 10px;
   appearance: none;
   cursor: pointer;
-  background-color: var(--white);
+  background-color: transparent;
   color: var(--black);
   text-align: center;
 }
@@ -151,7 +151,6 @@ input {
 
 input[type="checkbox"] {
   cursor: pointer;
-  background-color: var(--white);
   color: var(--black);
   appearance: none;
   border: var(--border-in-light);
