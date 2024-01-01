@@ -104,7 +104,7 @@
     padding: 4px;
     opacity: 0.2;
     transition: all ease 0.3s;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(#ffffff, 0.1);
     cursor: pointer;
     border-radius: 4px;
     margin-top: 4px;
@@ -112,7 +112,7 @@
 
     &:hover {
       opacity: 1;
-      background-color: rgba(255, 255, 255, 0);
+      background-color: rgba(#ffffff, 0.1);
     }
   }
 
@@ -191,9 +191,9 @@
 
   $linear: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0)
+    rgba(#ffffff, 0.1),
+    rgba(#ffffff, 0.1)
+    rgba(#ffffff, 0.1)
   );
   mask-image: $linear;
 
@@ -371,7 +371,7 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(#ffffff, 0.1);
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -380,7 +380,7 @@
   position: relative;
   transition: all ease 0.3s;
   .chat-item-date {
-    color: rgba(254,254,254, 0); 
+    color: rgba(#ffffff, 0.1); 
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -489,7 +489,7 @@
   width: 100%;
   border-radius: 10px;
   border: var(--border-in-light);
-  box-shadow: 0 -2px 5px rgba(255, 255, 255, 0.03);
+  box-shadow: 0 -2px 5px rgba(#ffffff, 0.1);
   background-color: var(--white);
   color: var(--black);
   font-family: inherit;
