@@ -59,11 +59,11 @@
 :root {
   @include light;
 
-  --window-width: 97vw;
-  --window-height: 97vh;
+  --window-width: 99vw;
+  --window-height: 99vh;
   --sidebar-width: 300px;
   --window-content-width: calc(100% - var(--sidebar-width));
-  --message-max-width: 96%;
+  --message-max-width: 99%;
   --full-height: 100%;
 }
 
