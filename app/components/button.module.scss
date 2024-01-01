@@ -1,4 +1,16 @@
-.icon-button {
+.icon-button { 
+
+  path {
+
+    fill: transparent;
+  }
+
+  &:hover path,
+  &:focus path {
+   
+    fill: transparent;
+  }
+}
   background-color: var(--white);
   border-radius: 10px;
   display: flex;
