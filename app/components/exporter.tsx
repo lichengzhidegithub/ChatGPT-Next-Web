@@ -558,7 +558,12 @@ export function ImagePreviewer(props: {
             <div className={styles["chat-info-item"]}>
               {Locale.Exporter.Topic}: {session.topic}
             </div>
-      
+            <div className={styles["chat-info-item"]}>
+              {Locale.Exporter.Time}:{" "}
+              {new Date(
+                props.messages.at(-1)?.date ?? Date.now(),
+              ).toLocaleString()}
+            </div>
           </div>
         </div>
         {props.messages.map((m, i) => {
