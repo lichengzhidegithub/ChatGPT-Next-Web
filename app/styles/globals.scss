@@ -67,7 +67,7 @@
   --full-height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 632px) {
   :root {
     --window-width: 100vw;
     --window-height: var(--full-height);
@@ -107,7 +107,7 @@ body {
   touch-action: pan-x pan-y;
   overflow: hidden;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 632px) {
     background-color: var(--second);
   }
 }
@@ -249,7 +249,7 @@ div.math {
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 632px) {
     align-items: flex-end;
   }
 }
