@@ -167,7 +167,7 @@
 
 .markdown-body b,
 .markdown-body strong {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
 }
 
 .markdown-body dfn {
@@ -176,7 +176,7 @@
 
 .markdown-body h1 {
   margin: 0.67em 0;
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   padding-bottom: 0.3em;
   font-size: 2em;
   border-bottom: 1px solid var(--color-border-muted);
@@ -378,34 +378,34 @@
 .markdown-body h6 {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   line-height: 1.25;
 }
 
 .markdown-body h2 {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   padding-bottom: 0.3em;
   font-size: 1.5em;
   border-bottom: 1px solid var(--color-border-muted);
 }
 
 .markdown-body h3 {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   font-size: 1.25em;
 }
 
 .markdown-body h4 {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   font-size: 1em;
 }
 
 .markdown-body h5 {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   font-size: 0.875em;
 }
 
 .markdown-body h6 {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   font-size: 0.85em;
   color: var(--color-fg-muted);
 }
@@ -659,7 +659,7 @@
   margin-top: 16px;
   font-size: 1em;
   font-style: italic;
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
 }
 
 .markdown-body dl dd {
@@ -668,7 +668,7 @@
 }
 
 .markdown-body table th {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
 }
 
 .markdown-body table th,
@@ -882,7 +882,7 @@
 }
 
 .markdown-body .csv-data th {
-  font-weight: var(--base-text-weight-semibold, 600);
+  font-weight: var(--base-text-weight-semibold, 632);
   background: var(--color-canvas-subtle);
   border-top: 0;
 }
