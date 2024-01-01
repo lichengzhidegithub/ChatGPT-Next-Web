@@ -1,9 +1,9 @@
 @mixin light {
   color-scheme: light;
-  --color-prettylights-syntax-comment: #b1b4e2;
+  --color-prettylights-syntax-comment: #000000;
   --color-prettylights-syntax-constant: #0550ae;
   --color-prettylights-syntax-entity: #8250df;
-  --color-prettylights-syntax-storage-modifier-import: #b1b4e2;
+  --color-prettylights-syntax-storage-modifier-import: #000000;
   --color-prettylights-syntax-entity-tag: #116329;
   --color-prettylights-syntax-keyword: #cf222e;
   --color-prettylights-syntax-string: #0a3069;
@@ -16,8 +16,8 @@
   --color-prettylights-syntax-string-regexp: #116329;
   --color-prettylights-syntax-markup-list: #3b2300;
   --color-prettylights-syntax-markup-heading: #0550ae;
-  --color-prettylights-syntax-markup-italic: #b1b4e2;
-  --color-prettylights-syntax-markup-bold: #b1b4e2;
+  --color-prettylights-syntax-markup-italic: #000000;
+  --color-prettylights-syntax-markup-bold: #000000;
   --color-prettylights-syntax-markup-deleted-text: #82071e;
   --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
   --color-prettylights-syntax-markup-inserted-text: #116329;
@@ -30,14 +30,14 @@
   --color-prettylights-syntax-brackethighlighter-angle: #57606a;
   --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
   --color-prettylights-syntax-constant-other-reference-link: #0a3069;
-  --color-fg-default: #b1b4e2;
+  --color-fg-default: #000000;
   --color-fg-muted: #57606a;
-  --color-fg-subtle: #b1b4e2;
+  --color-fg-subtle: #000000;
   --color-canvas-default: transparent;
   --color-canvas-subtle: #f6f8fa;
   --color-border-default: #d0d7de;
-  --color-border-muted: hsla(210, 18%, 87%, 1);
-  --color-neutral-muted: rgba(175, 184, 193, 0.2);
+  --color-border-muted: #ffffff;
+  --color-neutral-muted: #ffffff;
   --color-accent-fg: #0969da;
   --color-accent-emphasis: #0969da;
   --color-attention-subtle: #fff8c5;
