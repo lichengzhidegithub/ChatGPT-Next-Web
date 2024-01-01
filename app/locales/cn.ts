@@ -378,7 +378,7 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    
+    Toast: (x: any) => ``,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",
