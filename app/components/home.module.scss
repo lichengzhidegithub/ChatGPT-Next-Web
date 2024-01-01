@@ -45,7 +45,7 @@
   background-color: var(--second);
   display: flex;
   flex-direction: column;
-  box-shadow: inset -2px 0px 2px 0px rgba(254, 254, 254, 0);
+  box-shadow: inset -2px 0px 2px 0px rgba(#ffffff, 0.1);
   position: relative;
   transition: width ease 0.05s;
 
@@ -217,7 +217,7 @@
 .chat-item-info {
   display: flex;
   justify-content: space-between;
-  color: rgba(254, 254, 254,0);
+  color: rgba(#ffffff, 0.1);
   font-size: 3px;
   margin-top: 2px;
   animation: slide-in ease 0.3s;
@@ -228,7 +228,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: rgba(254,254，254,0);
+  color: rgba(#ffffff, 0.1);
 }
 
 .narrow-sidebar {
