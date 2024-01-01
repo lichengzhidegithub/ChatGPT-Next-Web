@@ -1,10 +1,10 @@
 @mixin container {
-  background-color: transparent;
+  background-color: white;
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
   color: var(--black);
-  background-color: transparent;
+  background-color: white;
   min-width: 632px;
   min-height: 370px;
   max-width: 1200px;
@@ -42,7 +42,7 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color: transparent;
+  background-color: white;
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgba(#ffffff, 0.1);
@@ -165,20 +165,20 @@
 
 .chat-item {
   padding: 10px 10px;
-  background-color: transparent;
+  background-color: white;
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
   transition: background-color 0.3s ease;
   cursor: pointer;
   user-select: none;
-  border: 2px solid transparent;
+  border: 2px solid white;
   position: relative;
   content-visibility: auto;
 }
 
 .chat-item:hover {
-  background-color: transparent;
+  background-color: white;
 }
 
 .chat-item-selected {
