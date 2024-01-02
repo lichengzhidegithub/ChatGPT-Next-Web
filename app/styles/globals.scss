@@ -113,9 +113,10 @@ body {
 }
 
 ::-webkit-scrollbar {
-  --bar-width: 1px;
+  --bar-width: 0.5px;
   width: var(--bar-width);
   height: var(--bar-width);
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-track {
@@ -123,10 +124,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--bar-color);
-  border-radius: 20px;
+  background-color: transparent;
+  border-radius: 0.5px;
   background-clip: content-box;
-  border: 1px solid transparent;
+  border: 0.5px solid transparent;
 }
 
 select {
