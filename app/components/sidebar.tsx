@@ -223,6 +223,20 @@ export function SideBar(props: { className?: string }) {
         }}
       />
     </div>
+{/* ... 其他代码 ... */}
+
+<div className={styles["sidebar-tail"]}>
+  <div className={styles["sidebar-actions"]}>
+    <div className={`${styles["sidebar-action"]} ${styles.mobile}`}>
+      <IconButton
+        icon={<DeleteIcon />}
+        onClick={async () => {
+          if (await showConfirm(Locale.Home.DeleteChat)) {
+            chatStore.deleteSession(chatStore.currentSessionIndex);
+          }
+        }}
+      />
+    </div>
     <div className={styles["sidebar-action"]}>
       <Link to={Path.Settings}>
         <IconButton icon={<SettingsIcon />} shadow>
@@ -252,6 +266,9 @@ export function SideBar(props: { className?: string }) {
     />
   </div>
 </div>
+
+{/* ... 其他代码 ... */}
+
 
       <div
         className={styles["sidebar-drag"]}
