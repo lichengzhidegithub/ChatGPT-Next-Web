@@ -1,4 +1,5 @@
 .icon-button { 
+   background-color:transparent;
 
   path {
 
@@ -11,7 +12,7 @@
     fill: transparent;
   }
 
-  background-color: var(--white);
+ 
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -32,11 +33,11 @@
   }
 
   &.primary {
-    background-color: var(--primary);
+    background-color: transparent;
     color: white;
 
     path {
-      fill: white !important;
+      fill: transparent;
     }
   }
 
