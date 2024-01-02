@@ -1,10 +1,10 @@
 .icon-button {
   background-color: var(--white);
-  border-radius: 10px;
+  border-radius: 1px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 3px;
 
   cursor: pointer;
   transition: all 0.3s ease;
@@ -20,7 +20,7 @@
   }
 
   &.primary {
-    background-color: var(--primary);
+    background-color: white;
     color: white;
 
     path {
@@ -58,8 +58,8 @@
 }
 
 .icon-button-icon {
-  width: 16px;
-  height: 16px;
+  width: 3px;
+  height: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
