@@ -1,5 +1,7 @@
 @mixin container {
   background-color: white;
+  margin:0;
+  padding:0;
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
