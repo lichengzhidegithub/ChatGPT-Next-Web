@@ -249,7 +249,7 @@
   overflow: auto;
   overflow-x: hidden;
   padding: 6px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   position: relative;
   overscroll-behavior: none;
 }
@@ -418,7 +418,7 @@
   position: relative;
   width: 100%;
   padding: 20px;
-  padding-top: 10px;
+  padding-top: 0px;
   box-sizing: border-box;
   flex-direction: column;
   border-top: var(--border-in-light);
