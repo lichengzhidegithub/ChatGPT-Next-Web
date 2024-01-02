@@ -1,6 +1,6 @@
 .window-header {
-  padding: 3px 5px;
-  border-bottom: transparent 1px solid;
+  padding: 0.2px 0.2px;
+  border-bottom: transparent 0.01px solid;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,7 @@
   background-color: transparent;
 
   .window-header-main-title {
-    font-size: 1px;
+    font-size: 0.01px;
     font-weight: bolder;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -28,7 +28,7 @@
   }
 
   .window-header-sub-title {
-    font-size: 1px;
+    font-size: 0.01px;
     color: transparent;
     background-color: transparent;
   }
