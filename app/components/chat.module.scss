@@ -248,8 +248,8 @@
   flex: 1;
   overflow: auto;
   overflow-x: hidden;
-  padding: 6px;
-  padding-bottom: 10px;
+  padding: 2px;
+  padding-bottom: 2px;
   position: relative;
   overscroll-behavior: none;
 }
@@ -417,7 +417,7 @@
 .chat-input-panel {
   position: relative;
   width: 100%;
-  padding: 20px;
+  padding: 3px;
   padding-top: 0px;
   box-sizing: border-box;
   flex-direction: column;
