@@ -1,14 +1,14 @@
 @mixin container {
   background-color: white;
   border: var(--border-in-light);
-  border-radius: 20px;
+  border-radius: 0px;
   box-shadow: var(--shadow);
   color: white;
   background-color: white;
   min-width: 632px;
   min-height: 380px;
  
-  max-width: 1200px;
+  max-width: 1250px;
 
   display: flex;
   overflow: hidden;
@@ -41,7 +41,7 @@
   top: 0;
   width: var(--sidebar-width);
   box-sizing: border-box;
-  padding: 20px;
+  padding: 2px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 
   .sidebar-header-bar {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottopx;
 
     .sidebar-bar-button {
       flex-grow: 1;
