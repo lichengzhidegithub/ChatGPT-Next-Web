@@ -1,5 +1,5 @@
 .window-header {
-  padding: 0.2px 0.2px;
+  padding: 0px 0px;
   border-bottom: transparent 0.01px solid;
   position: relative;
   display: flex;
@@ -10,13 +10,13 @@
 }
 
 .window-header-title {
-  max-width: calc(100% - 100px);
+  max-width: calc(100% - 1px);
   overflow: hidden;
   color: transparent;
   background-color: transparent;
 
   .window-header-main-title {
-    font-size: 0.01px;
+    font-size: 0px;
     font-weight: bolder;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -28,7 +28,7 @@
   }
 
   .window-header-sub-title {
-    font-size: 0.01px;
+    font-size: 0px;
     color: transparent;
     background-color: transparent;
   }
@@ -41,7 +41,7 @@
 }
 
 .window-action-button:not(:first-child) {
-  margin-left: 1px;
+  margin-left: 0px;
   color: transparent;
   background-color: transparent;
 }
