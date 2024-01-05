@@ -225,7 +225,7 @@
 
   &:hover {
     opacity: 1;
-    border-color: var(--primary);
+    border-color: var(--white);
 
     .clear-context-tips {
       @include hide;
@@ -496,17 +496,17 @@
   border: var(--border-in-light);
   box-shadow: 0 -2px 5px rgba(#F9F6F2, 0.1);
   background-color: var(--white);
-  color: var(--white);
+  color: var(--black);
   font-family: inherit;
-  padding: 7px 30px 8px 10px;
+  padding: 7px 26px 6px 9px;
   resize: none;
   outline: none;
   box-sizing: border-box;
-  min-height: 25px;
+  min-height: 23px;
 }
 
 .chat-input:focus {
-  border: 1px solid var(--primary);
+  border: 1px solid var(--white);
 }
 
 .chat-input-send {
