@@ -301,7 +301,7 @@
     justify-content: space-between;
     transition: all ease 0.3s;
     transform: scale(0.9) translateY(5px);
-    margin: 0 10px;
+    margin: 0 3px;
     opacity: 0;
     pointer-events: none;
 
@@ -377,7 +377,7 @@
   margin-top: 3px;
   border-radius: 0px;
   background-color: rgba(#F9F6F2, 0.1);
-  padding: 1px;
+  padding: 3px;
   font-size: 16px;
   user-select: text;
   word-break: break-word;
@@ -426,7 +426,7 @@
 
   .chat-input-actions {
     .chat-input-action {
-      margin-bottom: 0px;
+      margin-bottom: 5px;
     }
   }
 }
@@ -438,7 +438,7 @@
 }
 
 .prompt-hints {
-  min-height: 20px;
+  min-height: 10px;
   width: 100%;
   max-height: 50vh;
   overflow: auto;
@@ -447,8 +447,8 @@
 
   background-color: var(--white);
   border: var(--border-in-light);
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 0px;
+  margin-bottom: 5px;
   box-shadow: var(--shadow);
 
   .prompt-hint {
@@ -502,7 +502,7 @@
   resize: none;
   outline: none;
   box-sizing: border-box;
-  min-height: 23px;
+  min-height: 15px;
 }
 
 .chat-input:focus {
