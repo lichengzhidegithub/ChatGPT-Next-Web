@@ -6,8 +6,8 @@
 
   .chat-input-action {
     display: inline-flex;
-    border-radius: 6px;
-    font-size: 12px;
+    border-radius: 3px;
+    font-size: 6px;
     background-color: var(--white);
     color: var(--black);
     border: var(--border-in-light);
@@ -16,7 +16,7 @@
     box-shadow: var(--card-shadow);
     transition: width ease 0.3s;
     align-items: center;
-    height: 3px;
+    height: 1px;
     width: var(--icon-width);
     overflow: hidden;
 
@@ -86,9 +86,9 @@
 }
 
 .section-title {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -492,17 +492,17 @@
 .chat-input {
   height: 100%;
   width: 100%;
-  border-radius: 6px;
+  border-radius: 0px;
   border: var(--border-in-light);
-  box-shadow: 0 -2px 5px rgba(#ffffff, 0.1);
+  box-shadow: 0 -2px 5px rgba(#F9F6F2, 0.1);
   background-color: var(--white);
   color: var(--black);
   font-family: inherit;
-  padding: 8px 86px 9px 12px;
+  padding: 7px 70px 8px 10px;
   resize: none;
   outline: none;
   box-sizing: border-box;
-  min-height: 58px;
+  min-height: 28px;
 }
 
 .chat-input:focus {
@@ -515,7 +515,7 @@
 
   position: absolute;
   right: 30px;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {
