@@ -5,37 +5,37 @@
   --theme: light;
 
   /* color */
-  --white: white;
-  --black: black;
-  --gray: white;
-  --primary: black;
-  --second:white;
-  --hover-color: white;
-  --bar-color: white;
+  --white: #F9F6F2;
+  --black: #3D3732;
+  --gray: #F9F6F2;
+  --primary: #3D3732;
+  --second: #F9F6F2;
+  --hover-color: #F9F6F2;
+  --bar-color: #F9F6F2;
   --theme-color: var(--gray);
 
   /* shadow */
-  --shadow: 50px 50px 100px 10px rgb(255, 255, 255, 0.1);
-  --card-shadow: 0px 2px 4px 0px rgb(255, 255, 255, 0.05);
+  --shadow: 50px 50px 100px 10px rgb(249, 246, 242, 0.1);
+  --card-shadow: 0px 2px 4px 0px rgb(249, 246, 242, 0.05);
 
   /* stroke */
-  --border-in-light: 1px solid rgb(255, 255, 255);
+  --border-in-light: 1px solid rgb(249, 246, 242);
 }
 
 @mixin dark {
   --theme: dark;
 
   /* color */
-  --white: black;
-  --black: white;
-  --gray: black;
-  --primary: white;
-  --second: black;
-  --hover-color: black;
+  --white: #F9F6F2;
+  --black: #3D3732;
+  --gray: #F9F6F2;
+  --primary: #3D3732;
+  --second: #F9F6F2;
+  --hover-color: #F9F6F2;
 
-  --bar-color: black;
+  --bar-color: #F9F6F2;
 
-  --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
+  --border-in-light: 1px solid rgba(249, 246, 242, 0.192);
 
   --theme-color: var(--gray);
 
@@ -59,11 +59,11 @@
 :root {
   @include light;
 
-  --window-width: 99vw;
-  --window-height: 99vh;
-  --sidebar-width: 2px;
+  --window-width: 100vw;
+  --window-height: 100vh;
+  --sidebar-width: 1px;
   --window-content-width: calc(100% - var(--sidebar-width));
-  --message-max-width: 99%;
+  --message-max-width: 100%;
   --full-height: 100%;
 }
 
@@ -245,7 +245,7 @@ div.math {
   left: 0;
   height: var(--full-height);
   width: 100vw;
-  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  background-color: rgba($color: #F9F6F2, $alpha: 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
