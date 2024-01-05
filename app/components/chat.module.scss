@@ -16,7 +16,7 @@
     box-shadow: var(--card-shadow);
     transition: width ease 0.3s;
     align-items: center;
-    height: 1px;
+    height: 0px;
     width: var(--icon-width);
     overflow: hidden;
 
@@ -283,7 +283,7 @@
   flex-direction: row-reverse;
 
   .chat-message-header {
-    height: 1px; 
+    height: 0px; 
     flex-direction: row-reverse;
   }
 }
@@ -351,7 +351,7 @@
     transition: all ease 0.3s;
 
     button {
-      padding: 2px;
+      padding: 3px;
     }
   }
   /* Specific styles for iOS devices */
@@ -374,7 +374,7 @@
 .chat-message-item {
   box-sizing: border-box;
   max-width: 100%;
-  margin-top: 0px;
+  margin-top: 5px;
   border-radius: 0px;
   background-color: rgba(#F9F6F2, 0.1);
   padding: 1px;
@@ -418,7 +418,7 @@
   position: relative;
   width: 100%;
   padding: 0px;
-  padding-top: 0px;
+  padding-top: 3px;
   box-sizing: border-box;
   flex-direction: column;
   border-top: var(--border-in-light);
@@ -426,7 +426,7 @@
 
   .chat-input-actions {
     .chat-input-action {
-      margin-bottom: 2px;
+      margin-bottom: 0px;
     }
   }
 }
@@ -498,7 +498,7 @@
   background-color: var(--white);
   color: var(--black);
   font-family: inherit;
-  padding: 7px 26px 6px 9px;
+  padding: 7px 22px 6px 9px;
   resize: none;
   outline: none;
   box-sizing: border-box;
