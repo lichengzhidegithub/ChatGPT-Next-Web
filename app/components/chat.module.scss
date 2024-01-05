@@ -7,7 +7,7 @@
   .chat-input-action {
     display: inline-flex;
     border-radius: 0px;
-    font-size: 2px;
+    font-size: 19px;
     background-color: var(--white);
     color: var(--white);
     border: var(--border-in-light);
@@ -68,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 16px;
     background-color: var(--white);
     color: var(--black);
 
@@ -86,9 +86,9 @@
 }
 
 .section-title {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -165,7 +165,7 @@
     border: var(--border-in-light);
     border-radius: 10px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 15px;
     user-select: text;
   }
 }
@@ -187,7 +187,7 @@
   cursor: pointer;
   overflow: hidden;
   position: relative;
-  font-size: 12px;
+  font-size: 16px;
 
   animation: slide-in ease 0.3s;
 
@@ -296,7 +296,7 @@
   .chat-message-actions {
     display: flex;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 16px;
     align-items: flex-end;
     justify-content: space-between;
     transition: all ease 0.3s;
@@ -365,7 +365,7 @@
 }
 
 .chat-message-status {
-  font-size: 12px;
+  font-size: 16px;
   color: #aaa;
   line-height: 2;
   margin-top: 5px;
@@ -378,7 +378,7 @@
   border-radius: 0px;
   background-color: rgba(#F9F6F2, 0.1);
   padding: 1px;
-  font-size: 14px;
+  font-size: 16px;
   user-select: text;
   word-break: break-word;
   border: var(--border-in-light);
@@ -426,7 +426,7 @@
 
   .chat-input-actions {
     .chat-input-action {
-      margin-bottom: 6px;
+      margin-bottom: 2px;
     }
   }
 }
@@ -466,7 +466,7 @@
     }
 
     .hint-title {
-      font-size: 12px;
+      font-size: 16px;
       font-weight: bolder;
 
       @include single-line();
@@ -498,11 +498,11 @@
   background-color: var(--white);
   color: var(--white);
   font-family: inherit;
-  padding: 7px 66px 8px 10px;
+  padding: 7px 30px 8px 10px;
   resize: none;
   outline: none;
   box-sizing: border-box;
-  min-height: 28px;
+  min-height: 25px;
 }
 
 .chat-input:focus {
@@ -524,6 +524,6 @@
   }
 
   .chat-input-send {
-    bottom: 20px;
+    bottom: 17px;
   }
 }
