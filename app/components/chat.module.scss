@@ -6,17 +6,17 @@
 
   .chat-input-action {
     display: inline-flex;
-    border-radius: 6px;
-    font-size: 12px;
+    border-radius: 3px;
+    font-size: 3px;
     background-color: var(--white);
     color: var(--black);
     border: var(--border-in-light);
-    padding: 1px 1px;
+    padding: 0px 0px;
     animation: slide-in ease 0.3s;
     box-shadow: var(--card-shadow);
     transition: width ease 0.3s;
     align-items: center;
-    height: 3px;
+    height: 4px;
     width: var(--icon-width);
     overflow: hidden;
 
@@ -377,7 +377,7 @@
   margin-top: 0px;
   border-radius: 0px;
   background-color: rgba(#F9F6F2, 0.1);
-  padding: 1px;
+  padding: 0px;
   font-size: 14px;
   user-select: text;
   word-break: break-word;
@@ -417,8 +417,8 @@
 .chat-input-panel {
   position: relative;
   width: 100%;
-  padding: 2px;
-  padding-top: 0px;
+  padding: 0px;
+  padding-top: 3px;
   box-sizing: border-box;
   flex-direction: column;
   border-top: var(--border-in-light);
@@ -479,7 +479,7 @@
 
     &-selected,
     &:hover {
-      border-color: var(--primary);
+      border-color: var(--black);
     }
   }
 }
@@ -498,7 +498,7 @@
   background-color: var(--white);
   color: var(--black);
   font-family: inherit;
-  padding: 10px 30px 0px 0px;
+  padding: 10px 26px 0px 0px;
   resize: none;
   outline: none;
   box-sizing: border-box;
@@ -506,7 +506,7 @@
 }
 
 .chat-input:focus {
-  border: 1px solid var(--primary);
+  border: 1px solid var(--white);
 }
 
 .chat-input-send {
@@ -514,8 +514,8 @@
   color: #F9F6F2;
 
   position: absolute;
-  right: 15px;
-  bottom: 15px;
+  right: 9px;
+  bottom: 12px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -524,6 +524,6 @@
   }
 
   .chat-input-send {
-    bottom: 30px;
+    bottom: 15px;
   }
 }
