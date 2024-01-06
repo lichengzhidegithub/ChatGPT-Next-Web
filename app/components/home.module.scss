@@ -300,6 +300,8 @@
   .sidebar-tail {
     flex-direction: column-reverse;
     align-items: center;
+    height: 20px;
+    
 
     .sidebar-actions {
       flex-direction: column-reverse;
@@ -317,7 +319,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 0px;
-  height: 30px
+  height: 20px;
 }
 
 .sidebar-actions {
